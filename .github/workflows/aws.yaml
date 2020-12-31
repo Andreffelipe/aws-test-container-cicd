@@ -1,8 +1,8 @@
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 name: node Project CI on ECR
 
 jobs:
